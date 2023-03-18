@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int length = 5;
+        int length = 8;
         System.out.println(Square(length));
     }
     public static int Square(int length){
-        return length * length;
+        return (length * length)/2;
     }
 }
