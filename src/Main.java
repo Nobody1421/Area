@@ -1,9 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int length = 8;
-        System.out.println(Square(length));
-    }
-    public static int Square(int length){
-        return (length * length)/2;
+        Square square = new Square();
+        System.out.println(square.squareGetter());
     }
 }
