@@ -1,6 +1,6 @@
 public class Square {
     int length = 5;
-    public int squareGetter(){
-        return (length * length);
+    public String squareGetter(){
+        return ("Square " + length + " x " + length + " feet area " + length * length);
     }
 }
